@@ -12,7 +12,8 @@ The Slack application `slackr` is an incoming webhook that is used with the `R` 
 5. If not successful an error message will be returned.
 6. To keep the data safe you need your workplace `MEMBERID` to authenticate the `SLACK_ID_KEY`.
   - [Here are instructions how to locate your Member ID](https://medium.com/@moshfeu/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
-7. Use the following API to get the credentials you will need for the `slackr` `R` package. `https://slackr-auth.herokuapp.com/creds/<MEMBERID>/<SLACK_ID_KEY>`
+7. Use the following API to get the credentials you will need for the `slackr` `R` package.
+  - `https://slackr-auth.herokuapp.com/creds/<MEMBERID>/<SLACK_ID_KEY>`
 8. A json will be returned with three elements
   - api_token: xoxp-XXXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   - webhook_uri:  https://hooks.slack.com/services/XXXXX/XXXXX/XXXXX
